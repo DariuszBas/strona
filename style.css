@@ -1,0 +1,105 @@
+*{
+	margin:  0; 
+	padding: 0;
+	font-family: arial Black;
+	box-sizing: border-box;
+	
+ }
+ body {
+background-color: #C0C0C0;
+}
+ 
+ #wrapper{
+	 max-width:1000px;
+	 margin: 0 auto;
+	 background-color:  #C0C0C0;
+ }
+
+
+header img {
+	width: 100%; 
+	height:70%;
+	display: block;
+	}
+	
+nav {
+	background-color: darkcyan;
+}
+
+a.menu {
+	
+	display: inline-block;
+	width: 30%;
+	padding: 15px 30px;
+	color: white;
+	text-decoration: none;
+	text-align: center;
+}
+a.menu:hover {
+	font-size:30px;
+	background-color: crimson;
+	
+}
+article{
+	margin-top:30px;
+	margin-bottom: 20px;
+	padding: 0 20px;
+}
+
+footer {
+	width:100%
+	
+}
+.active {
+	background-color: crimson;
+}
+article h1{
+	font-size:35px;
+	text-align: center;
+	margin: 0 20% 20xp 20%;
+	padding-bottom:20px;
+	border-bottom: 2xp solid crimson;
+}
+img.left {
+	float:left
+	padding: 10px;
+	width:15%;
+	
+}
+.obrazek{
+	display: flex;
+	justify-content: center;
+	width: 100%;
+}
+
+.foot{
+	text-align: center;
+		font-size:12px;
+		background-color: #C0C0C0;
+}
+	section{
+	background:#C0C0C0;
+	}
+	form{
+	width:500px;
+	padding:20px;
+	margin:auto;
+	background: #7a7cbb;
+	font-size:20px;
+	}
+	input[type=text]{
+	width:100%;
+	padding:5px;
+	font-size:17px;
+	}
+	input[type=submmit]{
+	padding:5px;
+	font-size:18px;
+	}
+	textarea{
+	background:#f2f2f2;
+	width: 100%;
+	font-size:20px;
+	margin: auto
+	}
+
